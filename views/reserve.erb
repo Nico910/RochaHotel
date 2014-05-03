@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hotel Roch: Reserve a freaking room now!</title>
+  </head>
+    <style>
+  h1 {color: Yellow}
+  select {color: Yellow}
+  Date { color: Red }
+ 
+  </style>
+  <body background="beautiful-hotel-hawaii-united-states.jpg">
+    <h1> Reserve NOW or else lose a slot!</h1>
+	 <form method="POST" action="/reserveform" role="form">
+	<form>
+		<label for="kind"> Type of Room: </label>
+		<select>
+			<option value="Single">Single</option>
+			<option value="Double">Double</option>
+			<option value="Deluxe">Deluxe</option>
+			<option value="Family">Family</option>
+		</select>
+		<br />
+		<label for="date1"> Check in date: </label>
+		<input id="Date" type="date" />
+		<br />
+		<label for="date2"> Check out date: </label>
+		<input id="Date" type="date" />
+	<a href=""></a>
+	<p><a href="home.erb"> Home </a></p>
+	<input type="submit" value="Reserve" />
+  </body>
+</html>
